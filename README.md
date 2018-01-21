@@ -1,5 +1,5 @@
 # CAS_Bot
-Reddit movie information bot. Currently still in development. Will only work in my private subreddit and in /r/test.
+Reddit media information bot. Currently still in development. Will only work in my private subreddit and in /r/test.
 
 
 CAS_Bot Instructions:
