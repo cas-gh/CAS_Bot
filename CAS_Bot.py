@@ -19,7 +19,7 @@ def run_bot(r, comments_replied_to):
 	n = 10
 	movie = []
 	print("Obtaining up to " + str(n) + " comments...")
-	for comment in r.subreddit('CAS_Bot').comments(limit=n):
+	for comment in r.subreddit('CAS_Bot+test').comments(limit=n):
 		if "!movie " in comment.body and comment not in comments_replied_to and comment.author != r.user.me():
 			print("String containing \"!movie\" found!")
 
