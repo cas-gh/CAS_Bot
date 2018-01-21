@@ -30,7 +30,7 @@ def run_bot(r, comments_replied_to):
 
 			###checks if the movie requested exists. if it does, it gives the expected response.
 			try:
-				info = requests.get("http://www.omdbapi.com/?apikey=3b25a30a&t=" + keyphrase).json()['Plot']
+				info = requests.get("http://www.omdbapi.com/?apikey=apikey=" + keyphrase).json()['Plot']
 				comment_reply = "Here is a plot summary:\n\n"			
 				comment_reply += ">" + info
 				comment_reply += "\n\n*****"
