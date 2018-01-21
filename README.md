@@ -11,5 +11,7 @@ Example:
 User: !movie Forrest Gump
 
   CAS_Bot: Here is a plot summary of that movie:
+  
            JFK, LBJ, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.
+           
            Info from omdbapi.com. I am a bot created by /u/81isnumber1.
