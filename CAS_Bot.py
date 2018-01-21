@@ -20,8 +20,8 @@ def run_bot(r, comments_replied_to):
 	movie = []
 	print("Obtaining up to " + str(n) + " comments...")
 	for comment in r.subreddit('CAS_Bot+test').comments(limit=n):
-		if "!movie " in comment.body and comment not in comments_replied_to and comment.author != r.user.me():
-			print("String containing \"!movie\" found!")
+		if "!media " in comment.body and comment not in comments_replied_to and comment.author != r.user.me():
+			print("String containing \"!media\" found!")
 
 			###gets words after '!movie' and turns it into a usable format.
 			keyphrase = comment.body[comment.body.find("!movie")+1:][6::]
