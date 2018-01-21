@@ -35,7 +35,7 @@ def run_bot(r, comments_replied_to):
 				comment_reply += ">" + info
 				comment_reply += "\n\n*****"
 				comment_reply += "\n\n" + " "
-				comment_reply += "\n\n ^^Info ^^from ^^[omdbapi.com](https://omdbapi.com)." + " ^^I ^^am ^^a ^^bot ^^created ^^by ^^/u/81isnumber1.,"
+				comment_reply += "\n\n ^^Info ^^from ^^[omdbapi.com](https://omdbapi.com)." + " ^^I ^^am ^^a ^^bot ^^created ^^by ^^/u/81isnumber1. ^^Instructions ^^can ^^be ^^found ^^[here](https://github.com/orangeismyfavorite/CAS_Bot/blob/master/README.md"
 
 				comment.reply(comment_reply)
 				comments_replied_to.append(comment.id)
