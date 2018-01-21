@@ -4,7 +4,7 @@ Reddit media information bot. Currently still in development. Will only work in 
 
 CAS_Bot Instructions:
 
-Call CAS_Bot by simply commenting "!media" followed by the name of the movie you'd like to know more about.
+Call CAS_Bot by simply commenting "!media" followed by the name of the movie or TV show you'd like to know more about.
 
 Example: 
 
