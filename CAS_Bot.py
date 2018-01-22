@@ -25,7 +25,7 @@ def run_bot(r, comments_replied_to):
 			print("String containing \"!rating\" found!")
 
 			###gets words after '!movie' and turns it into a usable format.
-			keyphrase = comment.body[comment.body.find("!movie")+1:][7::]
+			keyphrase = comment.body[comment.body.find("!rating"):][8::]
 			keyphrase = keyphrase.split()
 			keyphrase = '+'.join(keyphrase)
 
@@ -50,7 +50,7 @@ def run_bot(r, comments_replied_to):
 				print("String containing \"!plot\" found!")
 
 				###gets words after '!movie' and turns it into a usable format.
-				keyphrase = comment.body[comment.body.find("!movie")+1:][5::]
+				keyphrase = comment.body[comment.body.find("!plot"):][6::]
 				keyphrase = keyphrase.split()
 				keyphrase = '+'.join(keyphrase)
 
@@ -75,7 +75,7 @@ def run_bot(r, comments_replied_to):
 				print("String containing \"!actors\" found!")
 
 				###gets words after '!movie' and turns it into a usable format.
-				keyphrase = comment.body[comment.body.find("!movie")+1:][5::]
+				keyphrase = comment.body[comment.body.find("!cast"):][6::]
 				keyphrase = keyphrase.split()
 				keyphrase = '+'.join(keyphrase)
 
@@ -101,7 +101,7 @@ def run_bot(r, comments_replied_to):
 				print("String containing \"!boxoffice\" found!")
 
 				###gets words after '!movie' and turns it into a usable format.
-				keyphrase = comment.body[comment.body.find("!movie")+1:][10::]
+				keyphrase = comment.body[comment.body.find("!boxoffice"):][11::]
 				keyphrase = keyphrase.split()
 				keyphrase = '+'.join(keyphrase)
 
@@ -129,7 +129,7 @@ def run_bot(r, comments_replied_to):
 				print("String containing \"!director\" found!")
 
 				###gets words after '!movie' and turns it into a usable format.
-				keyphrase = comment.body[comment.body.find("!movie")+1:][10::]
+				keyphrase = comment.body[comment.body.find("!director"):][10::]
 				keyphrase = keyphrase.split()
 				keyphrase = '+'.join(keyphrase)
 
