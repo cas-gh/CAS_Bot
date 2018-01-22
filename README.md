@@ -4,15 +4,17 @@ Reddit media information bot. Currently still in development. Will only work in 
 
 CAS_Bot Instructions:
 
-Call CAS_Bot by simply commenting "!media" followed by the name of the movie or TV show you'd like to know more about.
+Call CAS_Bot by simply commenting "!" and what you would like to know followed by the name of the movie or TV show you'd like to know more about.
+
+List of accepted inputs: [!cast, !plot, !boxoffice, !rating, !director]
 
 Example: 
 
-User: !media Forrest Gump
+User: !plot Forrest Gump
 
   CAS_Bot: 
   
-           Here is a plot summary of that movie:
+           Here is a plot summary:
            
            JFK, LBJ, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.
            
